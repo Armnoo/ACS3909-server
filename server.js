@@ -26,7 +26,7 @@ app.get('/api/getName', (req, res) => {
 
 app.get('/api/getImage', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
-    res.sendFile('./public/cornhub.webp');
+    res.sendFile('./public/cornhub.png');
 });
 
 app.listen(PORT, "0.0.0.0", () => {
